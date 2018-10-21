@@ -1,0 +1,9 @@
+c:\users\treej\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp1.1\CSharpTraining.deps.json
+c:\users\treej\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp1.1\CSharpTraining.runtimeconfig.json
+c:\users\treej\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp1.1\CSharpTraining.runtimeconfig.dev.json
+c:\users\treej\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp1.1\CSharpTraining.AssemblyInfo.cs
+C:\Users\treej\Documents\Visual Studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp1.1\CSharpTraining.dll
+C:\Users\treej\Documents\Visual Studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp1.1\CSharpTraining.pdb
+C:\Users\treej\Documents\Visual Studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp1.1\CSharpTraining.csprojResolveAssemblyReference.cache
+C:\Users\treej\Documents\Visual Studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp1.1\CSharpTraining.dll
+C:\Users\treej\Documents\Visual Studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp1.1\CSharpTraining.pdb
