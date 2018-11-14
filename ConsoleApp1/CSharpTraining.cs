@@ -21,9 +21,26 @@ namespace ConsoleApp1
             //CheckThirty();
             //AddIfString();
             //RemoveCharacter();
-            SwapFirstLast();
-        }
+            //SwapFirstLast();
+            CheckZCharacters();
 
+        }
+        public static bool StringSplit(string sString, char cSplitter)
+        { 
+            string[] sStringSplit = sString.Split(cSplitter);
+            return sStringSplit.Length > 2 && sStringSplit.Length < 6;
+        }
+        private static void CheckZCharacters()
+        {
+            Console.WriteLine(StringSplit("false", 'z'));
+            Console.WriteLine(StringSplit("zane", 'z'));
+            Console.WriteLine(StringSplit("frizz", 'z'));
+            Console.WriteLine(StringSplit("zazz", 'z'));
+            Console.WriteLine(StringSplit("fizzzz", 'z'));
+            Console.WriteLine(StringSplit("fivezzzzz", 'z'));
+            
+            Console.Read();
+        }
         private static void SwapFirstLast()
         {
             string sString = "Theresa";
