@@ -22,8 +22,39 @@ namespace ConsoleApp1
             //AddIfString();
             //RemoveCharacter();
             //SwapFirstLast();
-            CheckZCharacters();
+            //CheckZCharacters();
+            //CapsLastThree();
+            RepeatThree();
+        }
 
+        private static void RepeatThree()
+        {
+            string[] sStrings = new string[] { "Python", "JS", "Mazi" };
+            string sNewString = "";
+
+            foreach (string sString in sStrings)
+            {
+                sNewString = (sString.Length < 3) ? sString + sString + sString : sString.Substring(0, 3) + sString.Substring(0, 3) + sString.Substring(0, 3);
+                Console.WriteLine(sNewString);
+            }
+            Console.Read();
+        }
+        private static void CapsLastThree()
+        {
+            string[] sStrings = new string[] { "Python", "Javascript", "js", "php" };
+
+            foreach (string sString in sStrings)
+            {
+                if (sString.Length < 4)
+                {
+                    Console.WriteLine(sString.ToUpper());
+                }
+                else
+                {
+                    Console.WriteLine(sString.Remove(sString.Length - 3) + sString.Substring(sString.Length - 3,3).ToUpper());
+                }
+            }
+            Console.Read();
         }
         public static bool StringSplit(string sString, char cSplitter)
         { 
